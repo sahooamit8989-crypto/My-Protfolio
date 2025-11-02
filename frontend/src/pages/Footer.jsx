@@ -20,15 +20,15 @@ const Footer = () => {
           <h2 className="text-lg font-semibold text-white mb-3">Contact Info</h2>
           <div className="flex items-center gap-3">
             <Mail className="w-5 h-5 text-indigo-400" />
-            <span>soumyabaral26@gmail.com</span>
+            <span>asitsahoo2005@gmail.com</span>
           </div>
           <div className="flex items-center gap-3">
             <Phone className="w-5 h-5 text-indigo-400" />
-            <span>+91 6370264844</span>
+            <span>+91 7849047603</span>
           </div>
           <div className="flex items-center gap-3">
             <MapPin className="w-5 h-5 text-indigo-400" />
-            <span>Dhenkanal, Odisha,</span>
+            <span>Bhadraka, Odisha,</span>
           </div>
         </div>
 
@@ -37,7 +37,7 @@ const Footer = () => {
           <h2 className="text-lg font-semibold text-white mb-3">Follow Me</h2>
           <div className="flex items-center gap-5">
             <a
-              href="https://github.com/Soumya192004"
+              href="https://github.com/asit-sahoo-28"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-400 transition"
@@ -45,7 +45,7 @@ const Footer = () => {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://www.linkedin.com/in/soumya-ranjan-baral"
+              href="https://www.linkedin.com/in/asit-sahoo-41b510320"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-400 transition"
@@ -60,7 +60,7 @@ const Footer = () => {
 
       {/* Divider */}
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} Soumya Ranjan Baral. All rights reserved.
+        © {new Date().getFullYear()}Asit Sahoo All rights reserved.
       </div>
     </footer>
   );
