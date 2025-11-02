@@ -9,7 +9,7 @@ const Contact = () => {
     event.preventDefault();
     setResult("Sending...");
     const formData = new FormData(event.target);
-    formData.append("access_key", "9845667d-ed4a-4334-84d0-7cdec962f9d2");
+    formData.append("access_key", "");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -46,21 +46,21 @@ const Contact = () => {
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-indigo-500" />
               <span className="hover:text-indigo-500 transition duration-200">
-                asitsahoo2005@gmail.com
+                soumyabaral26@gmail.com
               </span>
             </li>
 
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-indigo-500" />
               <span className="hover:text-indigo-500 transition duration-200">
-                +91-7849047603
+                +91-6370264844
               </span>
             </li>
 
             <li className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-indigo-500" />
               <span className="hover:text-indigo-500 transition duration-200">
-                Bhadrak, Odisha
+                Dhenkanal, Odisha
               </span>
             </li>
           </ul>
