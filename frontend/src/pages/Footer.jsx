@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between gap-10">
         {/* Brand Section */}
         <div className="flex-1">
-          <h1 className="text-2xl font-bold text-white mb-3">Soumya Ranjan Baral</h1>
+          <h1 className="text-2xl font-bold text-white mb-3">Asit Sahoo</h1>
           <p className="text-gray-400 max-w-md leading-relaxed">
             Passionate Full Stack Developer building creative, scalable, and
             user-friendly web solutions. Let’s connect and create something
